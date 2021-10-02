@@ -1,0 +1,675 @@
+.title {
+  text-align: center;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    fixed;
+  background-size: cover;
+  background-size: contain;
+}
+
+/*==========================================  Main LOGIN form  =================================*/
+
+.loginform {
+  max-width: 453px;
+  padding: 29px;
+  margin: 46px auto;
+  border-radius: 4.3em;
+  background-color: #dc5766;
+  border-style: solid;
+}
+.login-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-form-1 {
+  padding: 5%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3 {
+  text-align: center;
+  color: #333;
+}
+.login-container form {
+  padding: 10%;
+}
+.btnSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit {
+  font-weight: 600;
+  color: #fff;
+  background-color: #0062cc;
+}
+
+.adminLoginCard {
+  margin-top: 5%;
+  height: 300px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #ddd;
+}
+
+.mentorLoginCard {
+  margin-top: 5%;
+  height: 300px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #ddd;
+}
+
+.studentLoginCard {
+  margin-top: 5%;
+  height: 300px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #ddd;
+}
+
+/*==========================================  Student Signup form  =================================*/
+
+.studentSignupCard {
+  margin-top: 5%;
+  max-height: 5000px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #000;
+}
+.courseTable {
+  width: 84%;
+}
+.studentUpdateCard {
+  margin-top: 5%;
+  height: 640px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #000;
+}
+
+.mentorSignupCard {
+  margin-top: 5%;
+  max-height: 5000px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #000;
+}
+
+.mentorUpdateCard {
+  margin-top: 5%;
+  height: 640px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #000;
+}
+
+.adminSigupCard {
+  margin-top: 5%;
+  max-height: 5000px;
+  height: 425px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #000;
+}
+
+/*==========================================  Mentor SignUp form  =================================*/
+
+.mentor-signup-form {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  background-color: #f2f2f2;
+  margin-top: 43px;
+  margin-bottom: 155px;
+}
+
+.mentor-signup-form h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.mentor-signup-form h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/*==========================================  New Course form  =================================*/
+
+.addCourseCard {
+  margin-top: 5%;
+  height: 320px;
+  width: 531px;
+  margin-left: 25%;
+  padding-top: 2%;
+  padding-left: 9%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #ddd;
+}
+
+.add-course-form h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/*=================================================== NAVBAR ====================================== */
+.navbar-logo {
+  margin-left: -90px;
+}
+img {
+  width: 61px;
+  vertical-align: bottom;
+}
+svg {
+  width: 61px;
+  vertical-align: bottom;
+}
+.navbar-middle-name {
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+}
+.nav-link {
+  color: white;
+}
+.navbar {
+  height: 20px;
+}
+.customNavTab {
+  color: #000000;
+}
+
+/*============================================= FOOTER ========================================== */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  border-top: groove;
+  text-align: center;
+  color: white;
+  position: fixed;
+}
+
+/*=============================================  HEADER  =============================================*/
+
+.header {
+  bottom: auto;
+  font-family: ui-monospace;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*=========================================   Roles   ================================================  */
+
+.role-img {
+  height: 350px;
+  width: 358px;
+  margin-left: 265px;
+  margin-top: 90px;
+}
+
+.student-role {
+  margin-top: 22px;
+  margin-left: 270px;
+  margin-bottom: -79px;
+  font-family: math;
+  text-decoration: underline;
+}
+
+/*========================================= Dropdown Button from admin functions =================================*/
+
+.dropbutton {
+  background-color: #a54747;
+  color: white;
+  padding: 9px;
+  font-size: 16px;
+  border: none;
+  width: 166px;
+  margin-right: 31px;
+  font-family: math;
+  border-radius: 17px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 17px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: math;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*========================================= LOGOUT Button =================================*/
+
+.admin-logout {
+  background-color: #0fec52;
+  color: rgb(3, 3, 3);
+  padding: 9px;
+  font-size: 16px;
+  border: none;
+  width: 140px;
+  border-radius: 17px;
+  font-family: math;
+  float: right;
+}
+
+.studentFunctionLogOut {
+  position: fixed;
+  float: right;
+  right: 50px;
+  top: 25px;
+  padding-top: 4px;
+  color: #000000;
+}
+
+/*========================================= Successfull Reg page =================================*/
+
+.successfullRegCard {
+  margin-top: 5%;
+  height: 300px;
+  width: 531px;
+  margin-left: 30%;
+  padding: 10px;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #ddd;
+}
+
+.successfullRegLines {
+  margin-top: 40px;
+}
+
+/*========================================= courseCard deatils =================================*/
+
+.coursedetailcard {
+  margin-top: 5%;
+  height: 250px;
+  width: 531px;
+  margin-left: 25%;
+  padding: 10px;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.successfullRegLines {
+  margin-top: 40px;
+}
+
+/*Mentor Cards*/
+.assignedMentorCard {
+  margin-top: 5%;
+  height: 375px;
+  width: 531px;
+  margin-left: 25%;
+  padding: 20px;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+/*========================================= HomePage =================================*/
+
+.homeslide {
+  width: 703px;
+  margin-right: 37px;
+  margin-top: 31px;
+  margin-left: auto;
+}
+.homePageCardImageTop {
+  background-image: url("./Images/melton-hill-trail.jpg");
+  background-size: cover;
+  border: thin;
+  height: 300px;
+  width: 100%;
+}
+.homePageCardImageBottom {
+  background-image: url("./Images/melton-hill-trail.jpg");
+  background-size: cover;
+  border: thin;
+  height: 220px;
+  width: 100%;
+}
+.homepagecard0 {
+  background-image: url("./Images/melton-hill-trail.jpg");
+  background-size: cover;
+  border: thin;
+  height: 300px;
+  width: 100%;
+}
+.homepagecard1 {
+  width: 263px;
+  width: 537px;
+  background-color: unset;
+  border: thin;
+}
+.homepagecard2 {
+  width: 263px;
+  width: 537px;
+  background-color: unset;
+  border: thin;
+}
+.homeloginbutton {
+  margin-right: 20px;
+}
+
+/* Bottom right text on image*/
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: orange;
+  font-size: 30px;
+}
+
+/*========================================= profile card  ===============================*/
+.greetingsProfileInfo {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.profilecard1 {
+  margin-top: 5%;
+  height: 362px;
+  padding: 20px;
+  width: 459px;
+  margin-left: 3%;
+  border-radius: 27px;
+  float: inline-start;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.profilecard2 {
+  margin-top: -378px;
+  height: 362px;
+  padding: 20px;
+  width: 459px;
+  margin-left: 55%;
+  float: inline-end;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.profilecard3 {
+  margin-top: -32%;
+  height: 362px;
+  padding: 20px;
+  width: 459px;
+  margin-left: 55%;
+  float: inline-end;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.greetingsProfileCard {
+  color: #333741;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.updatedStudentProfileCard {
+  margin-top: 5%;
+  height: 310px;
+  padding: 20px;
+  width: 459px;
+  margin-left: 30%;
+  border-radius: 27px;
+  float: inline-start;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.updatedMentorProfileCard {
+  margin-top: 5%;
+  height: 310px;
+  padding: 20px;
+  width: 459px;
+  margin-left: 30%;
+  border-radius: 27px;
+  float: inline-start;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.adminProfileCard {
+  margin-top: 5%;
+  height: 200px;
+  padding: 10px;
+  width: 459px;
+  margin-left: 30%;
+  border-radius: 27px;
+  float: inline-start;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+/*========================================= Mentor Details card  ===============================*/
+.nomentortext {
+  font-family: cursive;
+}
+
+.mentordetailcard {
+  margin-top: 5%;
+  height: 260px;
+  width: 531px;
+  margin-left: 25%;
+  padding: 25px;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+/*========================================= Succesfull Updation card  ===============================*/
+.successupdationcard {
+  width: 392px;
+  margin-top: 107px;
+  padding-left: 56px;
+  padding-top: 50px;
+  margin-left: 441px;
+  border-radius: 27px;
+  height: 165px;
+}
+
+/*Errors*/
+span.error {
+  font-family: ui-monospace;
+  color: red;
+}
+
+/*listOfAssignedStudents*/
+
+.listOfAssignedStudents {
+  margin-top: 7%;
+}
+
+.greetingsListOfAllAssignedStudents {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+/*listOfAllCourses*/
+.listOfCourseDetails {
+  margin-top: 9%;
+}
+
+/*Certificate */
+.certificate {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  height: 70%;
+  width: 70%;
+}
+
+.certificateTitle {
+  text-align: center;
+  margin-top: 13%;
+}
+
+.certificateText {
+  text-align: center;
+}
+
+.certificateDate {
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.certificateCompany {
+  margin-left: 72%;
+  margin-top: -5%;
+}
+.aboutUsCard {
+  margin-top: 5%;
+  max-height: 5000px;
+  width: 70%;
+  margin-left: 15%;
+  padding: 10px;
+  margin-bottom: 5%;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: white;
+  text-align: center;
+}
+
+.FaqAccordion {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.getCertificateErrorCard {
+  margin-top: 5%;
+  height: 210px;
+  padding: 10px;
+  width: 459px;
+  margin-left: 30%;
+  border-radius: 27px;
+  float: inline-start;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+}
+
+.deleteStudentAccount{
+  margin-top: 5%;
+  height: 150px;
+  width: 531px;
+  margin-left: 25%;
+  padding: 10px;
+  box-shadow: darksalmon;
+  border-radius: 27px;
+  box-shadow: 10px 10px 10px grey;
+  color: #ddd;
+}
+
+.loadingCard{
+  color: #333741;
+  box-shadow: 10px 10px 10px grey;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
